@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TrophyTrade V2
 // @namespace    http://tampermonkey.net/
-// @version      2.1.1
+// @version      2.1.2
 // @description  Skript zum Vertauschen von Medaillen
 // @author       Frechdachs
 // @match        https://community.bisafans.de/acp/index.php*
@@ -385,7 +385,7 @@ function addTradeButtons() {
 }
 
 function getTradeButtonEventListener(node, buttonNode) {
-    let userName = encodeURI(node.getElementsByClassName("columnUsername")[0].childNodes[0].innerText);
+    let userName = node.getElementsByClassName("columnUsername")[0].childNodes[0].innerText;
     let userId = node.getElementsByClassName("columnUsername")[0].childNodes[0].getAttribute("href").split("?user-edit/")[1].split("/")[0]
     let trophyName = node.getElementsByClassName("columnTrophy")[0].childNodes[0].nodeValue;
     let trophyInstanceId = node.getElementsByClassName("columnUserTrophyID")[0].innerText;
