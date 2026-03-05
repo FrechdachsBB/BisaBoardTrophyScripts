@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TrophyTrade V2
 // @namespace    http://tampermonkey.net/
-// @version      2.1.2
+// @version      2.1.3
 // @description  Skript zum Vertauschen von Medaillen
 // @author       Frechdachs
 // @match        https://community.bisafans.de/acp/index.php*
