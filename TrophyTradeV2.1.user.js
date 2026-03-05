@@ -339,6 +339,7 @@ function fillForumSectionMap() {
     forumSectionMap.set("Bisatainment", "dem Bisatainment-Bereich");
     forumSectionMap.set("Wettbewerbe und Aktionen", "dem Wettbewerbe und Aktionen-Bereich");
     forumSectionMap.set("RPG&PnP", "dem RPG&PnP-Bereich");
+    forumSectionMap.set("RPG", "dem RPG-Bereich");
     forumSectionMap.set("Pokémon-Editionen", "dem Pokémon-Editionen-Bereich");
 }
 
