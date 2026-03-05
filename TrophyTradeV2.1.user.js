@@ -28,7 +28,7 @@ class TradersStateDisplay {
     }
 
     getSisterElement() {
-        return document.getElementsByClassName("paginationTop")[0];
+        return document.getElementsByClassName("section tabularBox")[0];
     }
 
     static initialize(tradersState) {
