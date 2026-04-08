@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TrophyTrade V2
 // @namespace    http://tampermonkey.net/
-// @version      2.1.4
+// @version      2.1.5
 // @description  Skript zum Vertauschen von Medaillen
 // @author       Frechdachs
 // @match        https://community.bisafans.de/acp/index.php*
@@ -342,6 +342,7 @@ function fillForumSectionMap() {
     forumSectionMap.set("RPG", "dem RPG-Bereich");
     forumSectionMap.set("Pokémon-Editionen", "dem Pokémon-Editionen-Bereich");
     forumSectionMap.set("Forenspiele", "dem Forenspiele-Bereich");
+    forumSectionMap.set("Fanwork-Treff", "dem Fanwork-Treff");
 }
 
 function initializeGlobalState() {
